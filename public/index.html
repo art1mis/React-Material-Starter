@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <base href="%PUBLIC_URL%/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <p id="cotentProtocol">
+      Failed to execute script or content:// protocol is not supported.
+      <br />
+      Please manually locate this file in the device using file:/// protocol.
+      <br />
+      Examples of some file path are listed below:
+      <br />
+      (Windows) - file:///c:/
+      <br />
+      (Android) - file:///sdcard/
+      <script type="text/javaScript">
+        if(typeof window !== 'undefined' && window.location.protocol !== 'content:'){
+          document.getElementById('cotentProtocol').remove()
+        }
+      </script>
+    </p>
+    <div id="root"></div>
+  </body>
+</html>

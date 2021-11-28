@@ -1,2 +1,3 @@
-# React-Material-Common-Components-Starter
+# React-Material-Starter
+
 Created with CodeSandbox

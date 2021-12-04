@@ -1,13 +1,13 @@
 import * as React from "react";
 import { BrowserRouter, useHistory, Switch, Route } from "react-router-dom";
 
-import Toolbar from "@material-ui/core/Toolbar";
-import Divider from "@material-ui/core/Divider";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-import ListItemText from "@material-ui/core/ListItemText";
-import ListItemIcon from "@material-ui/core/ListItemIcon";
-import CircularProgress from "@material-ui/core/CircularProgress";
+import Toolbar from "@mui/material/Toolbar";
+import Divider from "@mui/material/Divider";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemText from "@mui/material/ListItemText";
+import ListItemIcon from "@mui/material/ListItemIcon";
+import CircularProgress from "@mui/material/CircularProgress";
 
 import { ThemeModeToggle, ThemeProvider } from "components/Theme";
 import Layout from "components/Layout";

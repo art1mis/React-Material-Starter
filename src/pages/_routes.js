@@ -1,4 +1,4 @@
-import LanguageOutlinedIcon from "@material-ui/icons/LanguageOutlined";
+import LanguageOutlinedIcon from "@mui/icons-material/LanguageOutlined";
 
 // [name, urlPath, icon]
 export const routes = [

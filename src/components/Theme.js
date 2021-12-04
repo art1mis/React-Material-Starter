@@ -3,11 +3,11 @@ import * as React from "react";
 import {
   createTheme,
   ThemeProvider as MuiThemeProvider
-} from "@material-ui/core/styles";
-import useMediaQuery from "@material-ui/core/useMediaQuery";
-import Tooltip from "@material-ui/core/Tooltip";
-import DarkModeOutlined from "@material-ui/icons/DarkModeOutlined";
-import LightModeOutlined from "@material-ui/icons/LightModeOutlined";
+} from "@mui/material/styles";
+import useMediaQuery from "@mui/material/useMediaQuery";
+import Tooltip from "@mui/material/Tooltip";
+import DarkModeOutlined from "@mui/icons-material/DarkModeOutlined";
+import LightModeOutlined from "@mui/icons-material/LightModeOutlined";
 
 import OutlinedIconButton from "components/OutlinedIconButton";
 

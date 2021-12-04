@@ -7,7 +7,7 @@ const SnackBarContext = React.createContext(() => {
   throw new Error("SnackbarContext not initialized");
 });
 
-export const useSnackAlert = () => React.useContext(SnackBarContext);
+export const useAlert = () => React.useContext(SnackBarContext);
 
 export const SnackBar = (props) => {
   const [snackPack, setSnackPack] = React.useState([]);

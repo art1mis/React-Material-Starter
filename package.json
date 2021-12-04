@@ -1,7 +1,7 @@
 {
-  "name": "react-material-layout-starter",
+  "name": "react-material-starter-template",
   "version": "1.0.0",
-  "description": "Utility project",
+  "description": "",
   "private": true,
   "main": "src/index.js",
   "homepage": "./",
@@ -30,5 +30,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "keywords": []
 }
